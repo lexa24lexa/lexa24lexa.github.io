@@ -1,13 +1,23 @@
 /* all pages */
-.nav-bar {
-    background-color: #506391;
-    color: #EAEAEA;
+.navbar {
+    background-color: #FFFFFF;
     width: 100%;
-    height: 20px;
-    text-align: center;
-    position: fixed;
+    height: 40px;
     top: 0;
+    position: fixed;
+    text-align: center;
 }
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.nav-link {
+    color:#000000;
+    font-size:1.1em;
+    padding-top:10px;
+    -WebKit-transition:padding-top .4s;
+  }
 
 .container {
     background-color: #000000;
@@ -22,36 +32,29 @@
 
 main {
     margin-top: 50px;
-}
+    background-color: #99CCFF;
+    };
 
-h1,
-h2,
-h3 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #49BFC1;
-    text-align: center;
-}
-
-b {
+.footer {
     color: #000000;
     text-align: left;
+    text-decoration: none;
+    text-decoration-color: #000000;
 }
 
 /* index */
-#body-index {
-    background-color: #EAEAEA;
-}
-
 .hz {
     max-height: 30px;
     align-items: center;
 }
+ .why {
+    text-align: center;
+    font-size:1.2em;
+    color:#99CCFF;
+    text-decoration: none;
+ }
 
 /* profile */
-#body-profile {
-    background-color: #49BFC1;
-}
-
 .who {
     text-align: right;
     margin-right: 5px;
