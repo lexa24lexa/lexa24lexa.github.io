@@ -12,12 +12,13 @@
     background-color: #ddd;
     color: black;
 }
+
 .nav-link {
-    color:#000000;
-    font-size:1.1em;
-    padding-top:10px;
-    -WebKit-transition:padding-top .4s;
-  }
+    color: #000000;
+    font-size: 1.1em;
+    padding-top: 10px;
+    -WebKit-transition: padding-top .4s;
+}
 
 .container {
     background-color: #000000;
@@ -30,12 +31,7 @@
     margin-left: 400px;
 }
 
-main {
-    margin-top: 50px;
-    background-color: #99CCFF;
-    };
-
-.footer {
+footer {
     color: #000000;
     text-align: left;
     text-decoration: none;
@@ -43,18 +39,37 @@ main {
 }
 
 /* index */
+
 .hz {
     max-height: 30px;
     align-items: center;
 }
- .why {
+
+#body-index {
+    margin-top: 50px;
+    background-color: #99CCFF;
+}
+
+
+.why {
     text-align: center;
-    font-size:1.2em;
-    color:#99CCFF;
+    font-size: 1.2em;
+    color: #99CCFF;
     text-decoration: none;
- }
+}
 
 /* profile */
+#body-profile {
+    margin-top: 50px;
+    background-color: #99CCFF;
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: #99CCFF;
+}
+
 .who {
     text-align: right;
     margin-right: 5px;
@@ -70,11 +85,27 @@ img {
 }
 
 /* dashboard */
+.container-dashboard {
+    background-color: #000000;
+    color: #EAEAEA;
+    width: 100%;
+    border-style: double;
+    border-color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 0 auto;
+}
 #body-dashboard {
-    background-color: #EAEAEA;
+    margin-top: 50px;
 }
 
-th {
+table {
+    background-color: #99CCFF;
+    width: 100%;
+}
+
+tr,
+th,
+td {
     border-width: 1px;
     border-style: outset;
     border-color: #000000;
@@ -82,15 +113,35 @@ th {
     width: 65px;
     height: 40px;
 }
-label {
-    color:#49BFC1;
+
+h3 {
+    text-align: center;
+    color: #99CCFF;
 }
+
+label {
+    color: #49BFC1;
+}
+
 /* blog */
+.container-blog {
+    background-color: #000000;
+    color: #EAEAEA;
+    height: 80px;
+    border-style: double;
+    border-color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 0 auto;
+    margin-right: 400px;
+    margin-left: 400px;
+}
 #body-blog {
-    background-color: #49BFC1;
+    margin-top: 50px;
+    background-color: #99CCFF;
 }
 
 /* faq */
 #body-faq {
-    background-color: #49BFC1;
+    margin-top: 50px;
+    background-color: #99CCFF;
 }
